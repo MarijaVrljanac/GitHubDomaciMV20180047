@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Kontaktiraj SMARTMOBIL</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/ionicons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header stranice -->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">SMARTMOBIL</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="katalog.html">Katalog</a></li>
+          <li  class="menu-active"><a href="kontakt.html" >Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="glavni">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Dobrodosli</h3>
+          <p>Ovde nas mozete kontaktirati o bilo cemu na sajtu</p>
+        </header>
+      </div>
+      <div class="container">
+		<h2 class="text-center">Kontaktirajte nas ovde</h2>
+		<div class="errors">
+		</div>
+			<form action="" class="contact-form" method="POST">
+        
+        <div class="form-group">
+    				<input type="text" name="username" id="username" class="username form-control" placeholder="Ime i prezime" value="">
+    				<i class="fa fa-user"></i>
+    				<span class="asterix">*</span>
+    				<span class="cross">x</span>
+    				<span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+    				<div class="alert alert-danger custom-alert">
+    					Ime i prezime moraju imati vise ili jednako od 3 karaktera
+    				</div>
+    			</div>
+
+
+    				<div class="form-group">
+      				<input type="text" name="email" class=" email form-control" placeholder="Email" value="">
+      				<i class="fa fa-envelope"></i>
+      				<span class="asterix">*</span>
+      				<span class="cross">x</span>
+      				<span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+      				<div class="alert alert-danger custom-alert">
+      					Email ne sme biti prazan
+      				</div>
+    				</div>
+
+
+    				<div class="form-group">
+    				<input type="text" name="subject" class="subject form-control" placeholder="Naslov" value="">
+    				<i class="fa fa-pencil"></i>
+    				<span class="asterix">*</span>
+    				<span class="cross">x</span>
+    				<span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+    				<div class="alert alert-danger custom-alert">
+    					Naslov ne sme biti prazan
+    				</div>
+    				</div>
+
+
+    				<div class="form-group">
+    				<textarea class=" message form-control" name="message" placeholder="Poruka"></textarea>
+    				<i class="fa fa-comments message-icon"></i>
+    				<span class="asterix">*</span>
+    				<span class="cross">x</span>
+    				<span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+    				<div class="alert alert-danger custom-alert">
+    					poruka mora imati vise od  <b>10</b> karaktera
+    				</div>
+    				</div>
+
+    				<div class="form-group">
+    				<input type="submit" value="Posalji" class="btn btn-success btn-block">
+    				<i class="fa fa-paper-plane send-icon"></i>
+    				</div>
+    			</form>
+          <p id="porukaUspesno" class="text-center"></p>
+    		</div>
+      </section>
+  <div id="google-map">
+  </div>
+
+  <!-- Footer stranice -->
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>SMARTMOBIL</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda esse amet, voluptas itaque quae hic minima quos repellat, a illo dolorem perspiciatis, quo ipsum sapiente eius beatae et aliquam est.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Meni</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Pocetna</a></li>
+              </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Adresa</h4>
+            <p>
+              Jove Ilica 154 <br>
+              Beograd, 11000<br>
+              Srbija <br>
+              <strong>Telefon:</strong> +381 64 333 555<br>
+              <strong>Email:</strong> office@SMARTMOBIL.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.google.com" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-primedbe">
+            <h4>Primedbe</h4>
+            <p>Ukoliko imate neke primedbe, molimo vas da nas kontaktirate da bismo ispravili nase greske. Hvala vam</p>
+            <a href="kontakt.html">Kontaktirajte nas</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>SMARTMOBIL</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Volite nas <a href="index.html">isto koliko i mi volimo vas</a> by | SMARTMOBIL
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9BYbOlaoICqwuuUCSXUwbFeggqcV9kT8&v=3.expsensor=false">
+</script>
+
+<script type="text/javascript">
+var map;
+var plain = new google.maps.LatLng(44.772790, 20.475015);
+var mapCoordinates = new google.maps.LatLng(44.772790, 20.475015);
+
+
+var markers = [];
+var image = new google.maps.MarkerImage(
+'image/map-marker.png',
+new google.maps.Size(84, 70),
+new google.maps.Point(0, 0),
+new google.maps.Point(60, 60)
+);
+
+function addMarker() {
+markers.push(new google.maps.Marker({
+  position: plain,
+  raiseOnDrag: false,
+  icon: image,
+  map: map,
+  draggable: false
+}));
+
+}
+
+function initialize() {
+var mapOptions = {
+  backgroundColor: "#ffffff",
+  zoom: 15,
+  disableDefaultUI: true,
+  center: mapCoordinates,
+  zoomControl: false,
+  scaleControl: false,
+  scrollwheel: false,
+  disableDoubleClickZoom: true,
+  mapTypeId: google.maps.MapTypeId.ROADMAP,
+  styles: [{
+    "featureType": "landscape.natural",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#ffffff"
+    }
+               ]
+  }
+           , {
+             "featureType": "landscape.man_made",
+             "stylers": [{
+               "color": "#ffffff"
+             }
+                         , {
+                           "visibility": "off"
+                         }
+                        ]
+           }
+           , {
+             "featureType": "water",
+             "stylers": [{
+               "color": "#80C8E5"
+             }
+                         , {
+                           "saturation": 0
+                         }
+                        ]
+           }
+           , {
+             "featureType": "road.arterial",
+             "elementType": "geometry",
+             "stylers": [{
+               "color": "#999999"
+             }
+                        ]
+           }
+           , {
+             "elementType": "labels.text.stroke",
+             "stylers": [{
+               "visibility": "off"
+             }
+                        ]
+           }
+           , {
+             "elementType": "labels.text",
+             "stylers": [{
+               "color": "#333333"
+             }
+                        ]
+           }
+
+           , {
+             "featureType": "road.local",
+             "stylers": [{
+               "color": "#dedede"
+             }
+                        ]
+           }
+           , {
+             "featureType": "road.local",
+             "elementType": "labels.text",
+             "stylers": [{
+               "color": "#666666"
+             }
+                        ]
+           }
+           , {
+             "featureType": "transit.station.bus",
+             "stylers": [{
+               "saturation": -57
+             }
+                        ]
+           }
+           , {
+             "featureType": "road.highway",
+             "elementType": "labels.icon",
+             "stylers": [{
+               "visibility": "off"
+             }
+                        ]
+           }
+           , {
+             "featureType": "poi",
+             "stylers": [{
+               "visibility": "off"
+             }
+                        ]
+           }
+
+          ]
+
+}
+    ;
+map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+addMarker();
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script>
+    $(function () {
+
+    'use strict';
+      var UserError  = true,
+        EmailError = true,
+        SubError   = true,
+        MsgError   = true;
+
+    $(".username").blur(function() {
+
+    if($(this).val().length < 3){
+
+      $(this).css('border','1px solid #F00');
+      $(this).parent().find('.custom-alert').fadeIn(300).end().find('.asterix').fadeOut(300).end().find('span.cross').fadeIn(300).end().find('span.verify').fadeOut(300);
+      UserError = true;
+    }else{
+
+      $(this).css('border','1px solid #080');
+      $(this).parent().find('.custom-alert').fadeOut(300).end().find('.asterix').fadeOut(300).end().find('span.verify').fadeIn(300).end().find('span.cross').fadeOut(300);
+
+      UserError = false;
+    }
+    });
+
+
+
+    $(".email").blur(function() {
+
+    if($(this).val() === ''){
+
+      $(this).css('border','1px solid #F00');
+      $(this).parent().find('.custom-alert').fadeIn(300).end().find('.asterix').fadeOut(300).end().find('span.cross').fadeIn(300).end().find('span.verify').fadeOut(300);
+      EmailError = true;
+    }else{
+
+      $(this).css('border','1px solid #080');
+      $(this).parent().find('.custom-alert').fadeOut(300).end().find('.asterix').fadeOut(300).end().find('span.verify').fadeIn(300).end().find('span.cross').fadeOut(300);
+
+      EmailError = false;
+    }
+    });
+
+
+    $(".subject").blur(function() {
+
+    if($(this).val() === ''){
+
+      $(this).css('border','1px solid #F00');
+      $(this).parent().find('.custom-alert').fadeIn(300).end().find('.asterix').fadeOut(300).end().find('span.cross').fadeIn(300).end().find('span.verify').fadeOut(300);
+      SubError = true;
+    }else{
+
+
+      $(this).css('border','1px solid #080');
+      $(this).parent().find('.custom-alert').fadeOut(300).end().find('.asterix').fadeOut(300).end().find('span.verify').fadeIn(300).end().find('span.cross').fadeOut(300);
+
+      SubError = false;
+    }
+    });
+
+
+    $(".message").blur(function() {
+
+    if($(this).val() .length < 10){
+
+
+      $(this).css('border','1px solid #F00');
+      $(this).parent().find('.custom-alert').fadeIn(300).end().find('.asterix').fadeOut(300).end().find('span.cross').fadeIn(300).end().find('span.verify').fadeOut(300);
+      MsgError = true;
+    }else{
+
+      $(this).css('border','1px solid #080');
+      $(this).parent().find('.custom-alert').fadeOut(300).end().find('.asterix').fadeOut(300).end().find('span.verify').fadeIn(300).end().find('span.cross').fadeOut(300);
+      MsgError = false;
+    }
+    });
+
+    $('.contact-form').submit(function(event) {
+    event.preventDefault();
+
+     if(UserError === true || EmailError === true || SubError === true || MsgError === true){
+
+
+      $('.username,.email,.subject,.message').blur();
+    }else{
+      var datum = new Date();
+      datum.setDate(datum.getDate() + 7);
+
+      var porukaDatum = datum.getDate()+'.'+ (datum.getMonth()+1) +'.'+datum.getFullYear();
+      $("#porukaUspesno").html("Uspesno ste nas kontaktirali, u roku od 7 dana, najkasnije do "+porukaDatum+" cemo se javiti. Hvala na strpljenju... :)")
+    }
+
+
+    });
+
+    });
+</script>
+
+</body>
+</html>
